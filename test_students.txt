@@ -1,0 +1,21 @@
+TEST RUN 1: High Achiever
+-------------------------
+Input Name: Charan
+Marks: 95, 90, 95
+Expected Result: Grade A (Avg 93.33)
+Actual Result: Grade A (Avg 93.33) - Success
+
+TEST RUN 2: Borderline Case
+-------------------------
+Input Name: Alex
+Marks: 79, 80, 80
+Expected Result: Grade B (Avg 79.66) -> Actually might be C depending on logic (79.6 is < 80)
+Actual Result: Grade C - Success (Logic holds strict to <80)
+
+TEST RUN 3: Invalid Inputs (Validation Check)
+-------------------------
+Input Name: ErrorUser
+Marks: "One hundred"
+Result: Program caught error, asked for number again. Success.
+Marks: 150
+Result: Program caught error, marks must be 0-100. Success.

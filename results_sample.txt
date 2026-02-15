@@ -1,0 +1,4 @@
+Name, Average, Grade
+Charan, 93.33, A
+Alex, 79.67, C
+Sam, 55.00, F
